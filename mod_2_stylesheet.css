@@ -1,0 +1,94 @@
+/*General Styles Start Here*/
+
+* {
+	font-family: "Lucida Sans Unicode", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	box-sizing: border-box;
+	}
+
+html {
+	background: #a0c1f7;
+}
+
+#Title_Div {
+	text-align: center;
+	font-size: 175%;
+	margin: 20px;
+	font-weight: bold;
+	color:black;
+	padding: 4px;
+}
+
+#chicken_header {
+	background: #f96c5c
+}
+
+#beef_header {
+	background: #f9c55c
+}
+
+#sushi_header {
+	background: #ba5cf9
+}
+
+.Menu_Items {
+	float: left;
+	color: black;
+	background: #90f4c2;
+	margin: 20px;
+	padding: 10px;
+	border: 1px solid black;
+	min-height: 150px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	word-wrap: break-word;
+	position: relative;
+	font-size: 100%;
+	}
+
+.Menu_Items h1 {
+	font-size: 125%;
+	position: absolute;
+	margin: 0px 0px 4px 4px;
+	padding: 4px;
+	border: 1px solid black;
+	top: -1px;
+	right: -1px;
+}
+
+.Menu_Items p {
+	position: relative;
+	top: 39px;
+
+}
+
+/*Media Queries Start Here*/
+
+/*This is for Desktops */
+@media screen and (min-width: 992px) {
+ 
+	.Menu_Items {
+		width: calc(33.33% - 40px);
+	}
+
+    }
+
+/*This is for Tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+ 
+	.Menu_Items {
+		width: calc(50% - 40px); /*40px is double the margin values*/
+	}
+
+	#sushi {
+		width: calc(100% - 40px) ;
+	}
+	
+    }
+
+@media screen and (max-width: 767px) {
+ 
+	.Menu_Items {
+		width: calc(100% - 40px);
+	}
+
+    }
