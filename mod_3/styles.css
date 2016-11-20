@@ -1,0 +1,44 @@
+#header-nav {
+  background-color:rgb(29, 115, 189) ;
+}
+
+#collapsable-nav a, #collapsable-nav div {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-header {
+  width:100%;
+}
+
+#nav-title {
+  color: rgb(255, 255, 255);
+  height: 70px;
+  font-size: 2em;
+}
+
+.menu-headers {
+  text-align: center;
+}
+
+.menu-items {
+  padding: 0px;
+}
+
+.inner-box {
+  background-color: rgb(29, 115, 189);
+  margin: auto;
+  margin: 20px 20px 20px 20px;
+  color:rgb(255, 255, 255);
+  height: 1000px
+}
+
+body #navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index:100;
+}
+
+#body-elements {
+  margin-top: 70px;
+}
