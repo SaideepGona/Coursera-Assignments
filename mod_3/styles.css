@@ -10,6 +10,19 @@
   width:100%;
 }
 
+.dropdown-menu {
+  min-width:95vw;
+  width:100%;
+}
+
+h1 {
+  color: rgb(29, 115, 189);
+}
+
+.inner-box header {
+  font-size: 200%;
+}
+
 #nav-title {
   color: rgb(255, 255, 255);
   height: 70px;
@@ -29,7 +42,8 @@
   margin: auto;
   margin: 20px 20px 20px 20px;
   color:rgb(255, 255, 255);
-  height: 1000px
+  height: 1000px;
+  padding: 10px;
 }
 
 body #navbar {
@@ -42,3 +56,10 @@ body #navbar {
 #body-elements {
   margin-top: 70px;
 }
+
+
+@media screen and (max-width: 767px) {
+  #collapsable-nav {
+    background-color: red;
+  }
+    }

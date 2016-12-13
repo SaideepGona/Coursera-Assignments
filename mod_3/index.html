@@ -6,15 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Module 3 Assignment</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
 
   <header id="navbar">
     <nav id="header-nav" class="navbar navbar-default">
@@ -23,25 +19,29 @@
 
           <div id="nav-title" class="pull-left hidden-xs">Food, LLC</div>
 
-          <div class="dropdown open pull-right visible-xs">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item col-xs-12" href="#">Chicken</a>
-                <a class="dropdown-item col-xs-12" href="#">Beef</a>
-                <a class="dropdown-item col-xs-12" href="#">Sushi</a>
-              </div>
-            </div>
+          <button id="btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          </div>
+          <div class="collapse navbar-collapse" id="collapsable-nav">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li><a class="visible-xs " href="#top-one" background-color="red">Chicken</a></li>
+              <li><a class="visible-xs " href="#top-two" background-color="red">Beef</a></li>
+              <li><a class="visible-xs " href="#top-three" background-color="red">Sushi</a></li>
+            </ul>
+          </div>
+
+
 
       </div><!-- .container -->
     </nav><!-- #header-nav -->
   </header>
 
   <div id="body-elements" class="container">
+    <h1 class="text-center">Our Menu</h1>
     <div id="top-elements" class="row">
 
       <div id="top-one" class="menu-items col-md-4 col-sm-6 col-xs-12">
@@ -68,6 +68,12 @@
 
     </div> <!-- #top-elements -->
   </div><!-- #body-elements -->
+
+  <script src="js/jquery.js"></script>
+
+  <script src="js/bootstrap.min.js"></script>
+
+  <script src="js/script.js"></script>
 
 </body>
 
