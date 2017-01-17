@@ -46,7 +46,6 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 for (name_index = 0; name_index < names.length; name_index++) {
 
   var name = names[name_index];
-  console.log(name.charAt(0).toLowerCase())
   // STEP 11:
   // Retrieve the first letter of the current name in the loop.
   // Use the string object's 'charAt' function. Since we are looking for
