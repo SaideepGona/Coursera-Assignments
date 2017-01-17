@@ -34,7 +34,7 @@ WARNING!!! WARNING!!!
 // See Lecture 52, part 2
 // (Note, Step 2 will be done in the SpeakHello.js file.)
 
-(function () {
+(function (window) {
 
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
@@ -61,11 +61,11 @@ for (name_index = 0; name_index < names.length; name_index++) {
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   if (name.charAt(0).toLowerCase == 'j') {
-    byeSpeaker.speak(name)
+    window.byeSpeaker.speak(name)
   } else {
-    helloSpeaker.speak(namme)
+    window.helloSpeaker.speak(name)
   }
 }
 
 
-}) ();
+}) (window);
