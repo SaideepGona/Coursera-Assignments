@@ -68,4 +68,4 @@ for (name_index = 0; name_index < names.length; name_index++) {
 }
 
 
-});
+}) ();
