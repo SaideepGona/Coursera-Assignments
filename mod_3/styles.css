@@ -1,3 +1,7 @@
+#body-elements {
+  width: 100vw;
+}
+
 #header-nav {
   background-color:rgb(29, 115, 189) ;
 }
